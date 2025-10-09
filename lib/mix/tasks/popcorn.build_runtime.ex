@@ -24,7 +24,7 @@ defmodule Mix.Tasks.Popcorn.BuildRuntime do
   @requirements "app.config"
 
   @out_dir "popcorn_runtime_source"
-  @default_repo "git@github.com:software-mansion-labs/FissionVM.git"
+  @default_repo "https://github.com/software-mansion-labs/FissionVM"
 
   # credo:disable-for-next-line Credo.Check.Refactor.CyclomaticComplexity
   def run(args) do
